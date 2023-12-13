@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AdminControlPanelGUI",
+            "request": "launch",
+            "mainClass": "AdminControlPanelGUI",
+            "projectName": "cs3560project2_3ecd7415"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

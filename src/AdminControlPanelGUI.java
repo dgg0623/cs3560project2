@@ -98,6 +98,13 @@ public class AdminControlPanelGUI {
         JButton btnShowPositivePercentage = new JButton("Show Positive Percentage");
         addComponent(rightPanel, btnShowPositivePercentage, 0, 4, 3, 1, GridBagConstraints.CENTER);
 
+        JButton btnVerifyID = new JButton("Verify IDs");
+        addComponent(rightPanel, btnVerifyID, 3, 4, GridBagConstraints.CENTER);
+
+        JButton btnFindLastUpdatedUser = new JButton("Find Last Updated User");
+        addComponent(rightPanel, btnFindLastUpdatedUser, 0, 5, 3, 1, GridBagConstraints.CENTER);
+
+
         textArea = new JTextArea();
         addComponent(rightPanel, new JScrollPane(textArea), 0, 4, 3, 1, GridBagConstraints.CENTER);
 
